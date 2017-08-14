@@ -9,7 +9,7 @@ def begin_story():
 def decision1(user_response):
   print("select 1 or 2")
   if user_response == 1:
-    print("No one replied in time. The plane went down and unfortunatley you did not survive.")
+    print("No one replied in time. The plane went down and unfortunately you did not survive.")
     loser()
   elif user_response == 2:
     print("The pilot was strapped down in seatbelts.")
@@ -104,7 +104,7 @@ def food():
   user_response = int(input())
 def decision9():
   if(user_response ==1):
-    print("The berries were ended up poisonus you were found by a rescue helicopter but unfortuanitly they were not able to deal with the poison in time.")
+    print("The berries were ended up poisonus you were found by a rescue helicopter but unfortunately they were not able to deal with the poison in time.")
     loser()
   elif(user_response == 2):
     print("Your mother told you never to climb trees as a child and due to that you had no experience. You tried climbing the tree but fell and broke your head. Your body was never found.")
@@ -118,7 +118,7 @@ def decision4ab():
 
 
 def decision3b():
-  print("You ejected the seatbelts and now the piolt lays on the ground. ")
+  print("You ejected the seatbelts and now the pilot lays on the ground. ")
   print("1.Try and fly the plane. \n 2. Try to save the piolt.")
   decision4b()
 
